@@ -1,4 +1,5 @@
 #All Vector Functions :
+
                             ####### Iterators ########
     1-begin() – Returns an iterator pointing to the first element in the vector
     2-end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
@@ -21,11 +22,11 @@
                            
                             ####### Element access ########
 
-reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
-    1-at(g) – Returns a reference to the element at position ‘g’ in the vector
-    2-front() – Returns a reference to the first element in the vector
-    3-back() – Returns a reference to the last element in the vector
-    4-data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+	1-reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
+    2-at(g) – Returns a reference to the element at position ‘g’ in the vector
+    3-front() – Returns a reference to the first element in the vector
+    4-back() – Returns a reference to the last element in the vector
+    5-data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
                             
                             ####### Modifiers ########
     1-assign() – It assigns new value to the vector elements by replacing old ones
@@ -37,4 +38,3 @@ reference operator [g] – Returns a reference to the element at position ‘g�
     7-clear() – It is used to remove all the elements of the vector container
     8-emplace() – It extends the container by inserting new element at position
     9-emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
-*********************/
