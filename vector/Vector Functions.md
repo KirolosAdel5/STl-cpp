@@ -2,13 +2,13 @@
 
 **Iterators**:
 Fuction | explained
------------- | -------------
+------------------------ | -------------
 **1-begin()** | Returns an iterator pointing to the first element in the vector
 **2-end()**| Returns an iterator pointing to the theoretical element that follows the last element in the vector
 **3-rbegin()** | Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.
 **5-rend()** | Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
 **6-cbegin()** |Returns a constant iterator pointing to the first element in the vector.
-**7-cend()|Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
+**7-cend()**|Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
 **8-crbegin()** |Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
 **9-crend()** | Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
 
