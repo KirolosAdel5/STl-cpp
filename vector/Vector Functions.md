@@ -3,35 +3,36 @@
 **Iterators**:
 Fuction | explained
 ------------ | -------------
-*begin()* | Returns an iterator pointing to the first element in the vector
-*end()* | Returns an iterator pointing to the theoretical element that follows the last element in the vector
-rbegin() | Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
-rend() | Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
-cbegin() |Returns a constant iterator pointing to the first element in the vector.
-cend()|Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
-crbegin() |Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
-crend() | Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
+**1-begin()** | Returns an iterator pointing to the first element in the vector
+**2-end()**| Returns an iterator pointing to the theoretical element that follows the last element in the vector
+**3-rbegin()** | Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.
+**5-rend()** | Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
+**6-cbegin()** |Returns a constant iterator pointing to the first element in the vector.
+**7-cend()|Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
+**8-crbegin()** |Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
+**9-crend()** | Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
 
                            
 **Capacity:** 
 Fuction | explained
 ------------ | -------------
-1-size() | Returns the number of elements in the vector.
-2-max_size() | Returns the maximum number of elements that the vector can hold.
-3-capacity() | Returns the size of the storage space currently allocated to the vector expressed as number of elements.
-4-resize(n) | Resizes the container so that it contains ‘n’ elements.
-5-empty() | Returns whether the container is empty.
-6-shrink_to_fit() | Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
-7-reserve() | Requests that the vector capacity be at least enough to contain n elements.
+**1-size()** | Returns the number of elements in the vector.
+**2-max_size()** | Returns the maximum number of elements that the vector can hold.
+**3-capacity()** | Returns the size of the storage space currently allocated to the vector expressed as number of elements.
+**4-resize(n) **| Resizes the container so that it contains ‘n’ elements.
+**5-empty()** | Returns whether the container is empty.
+**6-shrink_to_fit()** | Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
+**7-reserve()** | Requests that the vector capacity be at least enough to contain n elements.
                            
 						   
-                            ####### Element access ########
-
-	1-reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
-    2-at(g) – Returns a reference to the element at position ‘g’ in the vector
-    3-front() – Returns a reference to the first element in the vector
-    4-back() – Returns a reference to the last element in the vector
-    5-data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+**Element access:**
+Fuction | explained
+------------ | -------------
+1-reference operator [g] | Returns a reference to the element at position ‘g’ in the vector
+2-at(g) | Returns a reference to the element at position ‘g’ in the vector
+3-front()| Returns a reference to the first element in the vector
+4-back() | Returns a reference to the last element in the vector
+5-data() | Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
                             
                             ####### Modifiers ########
     1-assign() – It assigns new value to the vector elements by replacing old ones
