@@ -1,5 +1,5 @@
 #**All Vector Functions** :
-
+<div class="anim-fade-up"><%= octicon("mark-github", :height => 32, :class => "v-align-middle mr-2") %> Hello from GitHub!</div>
                             ####### _**Iterators**_ ########
     1-begin() – Returns an iterator pointing to the first element in the vector
     2-end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
