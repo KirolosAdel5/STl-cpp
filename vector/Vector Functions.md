@@ -1,6 +1,6 @@
 #**All Vector Functions** :
-
-                            ####### **Iterators** ########
+<div>
+ ####### **Iterators** ########
     1-begin() – Returns an iterator pointing to the first element in the vector
     2-end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
     3-rbegin() – Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
@@ -9,6 +9,8 @@
     6-cend() – Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
     7-crbegin() – Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
     8-crend() – Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
+</div>
+                            
                            
                             ####### Capacity ########
 
@@ -39,6 +41,5 @@
     8-emplace() – It extends the container by inserting new element at position
     9-emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
 	
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
+<div class="text-white bg-blue mb-2">
+  .text-white on .bg-blue
