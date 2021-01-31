@@ -1,5 +1,4 @@
 #**All Vector Functions** :
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
                             ####### _**Iterators**_ ########
     1-begin() – Returns an iterator pointing to the first element in the vector
