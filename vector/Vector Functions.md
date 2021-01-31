@@ -14,6 +14,7 @@ crend() | Returns a constant reverse iterator pointing to the theoretical elemen
 
                            
 **Capacity:** 
+
     1-size() – Returns the number of elements in the vector.
     2-max_size() – Returns the maximum number of elements that the vector can hold.
     3-capacity() – Returns the size of the storage space currently allocated to the vector expressed as number of elements.
