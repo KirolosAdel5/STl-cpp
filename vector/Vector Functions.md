@@ -1,4 +1,4 @@
-/*All Vector Functions :
+#All Vector Functions :
                             ####### Iterators ########
     1-begin() – Returns an iterator pointing to the first element in the vector
     2-end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
@@ -38,36 +38,3 @@ reference operator [g] – Returns a reference to the element at position ‘g�
     8-emplace() – It extends the container by inserting new element at position
     9-emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
 *********************/
-#include <iostream> 
-#include <vector> 
-  
-using namespace std; 
-  
-int main() 
-{ 
-    vector<int> g1; 
-  
-    for (int i = 1; i <= 5; i++) 
-        g1.push_back(i); 
-  
-    cout << "Output of begin and end: "; 
-    for (auto i = g1.begin(); i != g1.end(); ++i) 
-        cout << *i << " "; 
-	/*Output of begin and end: 1 2 3 4 5 */
-    cout << "\nOutput of cbegin and cend: "; 
-    for (auto i = g1.cbegin(); i != g1.cend(); ++i) 
-        cout << *i << " "; 
-  	/*Output of cbegin and cend: 1 2 3 4 5 */
-
-    cout << "\nOutput of rbegin and rend: "; 
-    for (auto ir = g1.rbegin(); ir != g1.rend(); ++ir) 
-        cout << *ir << " "; 
-    /*Output of rbegin and rend: 5 4 3 2 1 */
-
-    cout << "\nOutput of crbegin and crend : "; 
-    for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir) 
-        cout << *ir << " "; 
-      /*Output of crbegin and crend : 5 4 3 2 1 */
-
-    return 0; 
-} 
