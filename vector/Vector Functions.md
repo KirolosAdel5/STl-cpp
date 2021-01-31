@@ -1,8 +1,12 @@
 #**All Vector Functions** :
 
 **Iterators**:
-	Fuction | explained
-	------------ | -------------
+Fuction | explained
+------------ | -------------
+keroo | Adel
+kerelos | Adel
+
+
 
 
     *begin() – Returns an iterator pointing to the first element in the vector
