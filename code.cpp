@@ -1,6 +1,6 @@
-#include <bits/stdc++.h>//السطر ده بستدعى المكتبة 
+#include <bits/stdc++.h>
 using namespace std;
-int main() //  فينكشن main السطر ده بعرف ال 
+int main() 
 {
 	
 	return 0;
