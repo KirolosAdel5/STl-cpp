@@ -1,10 +1,10 @@
 #**All Vector Functions** :
 
 **Iterators**:
-	Fuction | explained
-	------------ | -------------
-	*begin()* | Returns an iterator pointing to the first element in the vector
-	*end()* | Returns an iterator pointing to the theoretical element that follows the last element in the vector
+Fuction | explained
+------------ | -------------
+*begin()* | Returns an iterator pointing to the first element in the vector
+*end()* | Returns an iterator pointing to the theoretical element that follows the last element in the vector
 
 
 
