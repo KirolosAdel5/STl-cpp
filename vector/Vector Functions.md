@@ -19,7 +19,7 @@ Fuction | explained
 **1-size()** | Returns the number of elements in the vector.
 **2-max_size()** | Returns the maximum number of elements that the vector can hold.
 **3-capacity()** | Returns the size of the storage space currently allocated to the vector expressed as number of elements.
-**4-resize(n) **| Resizes the container so that it contains ‘n’ elements.
+**4-resize(n)**| Resizes the container so that it contains ‘n’ elements.
 **5-empty()** | Returns whether the container is empty.
 **6-shrink_to_fit()** | Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
 **7-reserve()** | Requests that the vector capacity be at least enough to contain n elements.
@@ -28,11 +28,11 @@ Fuction | explained
 **Element access:**
 Fuction | explained
 ------------ | -------------
-1-reference operator [g] | Returns a reference to the element at position ‘g’ in the vector
-2-at(g) | Returns a reference to the element at position ‘g’ in the vector
-3-front()| Returns a reference to the first element in the vector
-4-back() | Returns a reference to the last element in the vector
-5-data() | Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+**1-reference operator [g]** | Returns a reference to the element at position ‘g’ in the vector
+**2-at(g) **| Returns a reference to the element at position ‘g’ in the vector
+**3-front()**| Returns a reference to the first element in the vector
+**4-back()** | Returns a reference to the last element in the vector
+**5-data()** | Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
                             
                             ####### Modifiers ########
     1-assign() – It assigns new value to the vector elements by replacing old ones
