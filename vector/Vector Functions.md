@@ -34,16 +34,15 @@ Fuction | explained
 **4-back()** | Returns a reference to the last element in the vector
 **5-data()** | Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
                             
-                            ####### Modifiers ########
-    1-assign() – It assigns new value to the vector elements by replacing old ones
-    2-push_back() – It push the elements into a vector from the back
-    3-pop_back() – It is used to pop or remove elements from a vector from the back.
-    4-insert() – It inserts new elements before the element at the specified position
-    5-erase() – It is used to remove elements from a container from the specified position or range.
-    6-swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
-    7-clear() – It is used to remove all the elements of the vector container
-    8-emplace() – It extends the container by inserting new element at position
-    9-emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
-	
-<div class="text-white bg-blue mb-2">
-  .text-white on .bg-blue
+**Modifiers:**
+Fuction | explained
+------------ | -------------
+1-assign() | It assigns new value to the vector elements by replacing old ones
+2-push_back() | It push the elements into a vector from the back
+3-pop_back() | It is used to pop or remove elements from a vector from the back.
+4-insert() | It inserts new elements before the element at the specified position
+5-erase() | It is used to remove elements from a container from the specified position or range.
+6-swap() | It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+7-clear() | It is used to remove all the elements of the vector container
+8-emplace() | It extends the container by inserting new element at position
+9-emplace_back() | It is used to insert a new element into the vector container, the new element is added to the end of the vector
