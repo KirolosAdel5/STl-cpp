@@ -39,6 +39,6 @@
     8-emplace() – It extends the container by inserting new element at position
     9-emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
 	
-<div class="text-purple" style="color:red">
+<div class="text-purple">
   This text is purple, <a href="#" class="text-inherit">including the link</a>
 </div>
