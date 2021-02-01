@@ -1,2 +1,2 @@
-![](/img/6.png)
+![keroo](/img/6.png)
 Format: ![](url)
