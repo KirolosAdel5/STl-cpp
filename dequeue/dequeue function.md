@@ -1,2 +1,1 @@
-![keroo](img/6.png)
-Format: ![](url)
+(img/6.png)
